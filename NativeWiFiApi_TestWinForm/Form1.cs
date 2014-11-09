@@ -18,6 +18,7 @@ namespace NativeWiFiApi_TestWinForm
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //
             NativeWiFiApi.wifi wifiApi = new NativeWiFiApi.wifi();
             wifiApi.EnumerateNICs();
         }
